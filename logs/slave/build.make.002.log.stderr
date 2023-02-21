@@ -1,0 +1,6 @@
+[01m[K/home/harindu/Combots/src/slave/src/slave_node.cpp:18:10:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+   18 | ros::init[01;31m[K([m[Kargc, argv, "master");
+      |          [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/slave_node.dir/build.make:63: CMakeFiles/slave_node.dir/src/slave_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:668: CMakeFiles/slave_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

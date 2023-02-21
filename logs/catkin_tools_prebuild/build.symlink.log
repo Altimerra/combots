@@ -1,0 +1,12 @@
+Symlinking /home/harindu/Combots/devel/./cmake.lock
+Symlinking /home/harindu/Combots/devel/./_setup_util.py
+Symlinking /home/harindu/Combots/devel/./env.sh
+Symlinking /home/harindu/Combots/devel/./setup.bash
+Symlinking /home/harindu/Combots/devel/./local_setup.bash
+Symlinking /home/harindu/Combots/devel/./setup.sh
+Symlinking /home/harindu/Combots/devel/./local_setup.sh
+Symlinking /home/harindu/Combots/devel/./setup.zsh
+Symlinking /home/harindu/Combots/devel/./local_setup.zsh
+Symlinking /home/harindu/Combots/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/harindu/Combots/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/harindu/Combots/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
