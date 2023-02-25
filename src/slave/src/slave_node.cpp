@@ -3,20 +3,17 @@
 
 #include <sstream>
 
+struct SlaveNode {
+  ros::NodeHandle node;
+  ros::Publisher master;
+  ros::Subscriber slaveOne;
+  
+  SlaveNode(){
+    master = node.advertise<std_msgs::String>("master", 1000);
+    slaveOne = node.subscribe("slaveOne", 1000, &SlaveNode::receiveMsg, this);
+  }
 
-struct Slave
-{
-    Slave(){
-        ros::Publisher master = node.advertise<std_msgs::String>("master", 1000);
-        ros::Subscriber slaveOne = node.subscribe("slaveOne", 1000, receiveMsg);
-    }
-    
-    void receiveMsg(const std_msgs::String::ConstPtr& msg)
-};
-
-ros::NodeHandle node;
-
-void receiveMsg(const std_msgs::String::ConstPtr& msg) {
+  void receiveMsg(const std_msgs::String::ConstPtr& msg) {
     ROS_INFO("SlaveOne heard: [%s]", msg->data.c_str());
 
     std::stringstream ss;
@@ -24,30 +21,15 @@ void receiveMsg(const std_msgs::String::ConstPtr& msg) {
     std_msgs::String msgOut;
     msgOut.data = ss.str();
     master.publish(msgOut);
+  }
 };
-  
 
-  
-ros::Rate loop_rate(10);
-
-
-
+   
 int main(int argc, char **argv)
 {
-  
   ros::init(argc, argv, "master");
-
-  int count = 0;
-  while (ros::ok())
-  {
-    
-    ros::spinOnce();
-
-    loop_rate.sleep();
-    ++count;
-  }
-
-
+  SlaveNode slavenode;
+  ros::spin();
   return 0;
 }
 
