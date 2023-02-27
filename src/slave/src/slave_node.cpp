@@ -22,12 +22,11 @@ struct SlaveNode {
     master.publish(msgOut);
   }
 
-
 };
 
 int main(int argc, char **argv)
 {
-  ros::init(argc, argv, "master");
+  ros::init(argc, argv, "slaveOne");
   SlaveNode slavenode;
   ros::spin();
   return 0;

@@ -1,0 +1,6 @@
+master
+/home/harindu/Combots/devel/.private/master/cmake.lock /home/harindu/Combots/devel/./cmake.lock
+/home/harindu/Combots/devel/.private/master/lib/pkgconfig/master.pc /home/harindu/Combots/devel/lib/pkgconfig/master.pc
+/home/harindu/Combots/devel/.private/master/lib/master/master_node /home/harindu/Combots/devel/lib/master/master_node
+/home/harindu/Combots/devel/.private/master/share/master/cmake/masterConfig-version.cmake /home/harindu/Combots/devel/share/master/cmake/masterConfig-version.cmake
+/home/harindu/Combots/devel/.private/master/share/master/cmake/masterConfig.cmake /home/harindu/Combots/devel/share/master/cmake/masterConfig.cmake
