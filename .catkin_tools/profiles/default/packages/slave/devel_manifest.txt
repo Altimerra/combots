@@ -1,6 +1,6 @@
 slave
-/home/harindu/Combots/devel/.private/slave/cmake.lock /home/harindu/Combots/devel/./cmake.lock
-/home/harindu/Combots/devel/.private/slave/lib/pkgconfig/slave.pc /home/harindu/Combots/devel/lib/pkgconfig/slave.pc
-/home/harindu/Combots/devel/.private/slave/lib/slave/slave_node /home/harindu/Combots/devel/lib/slave/slave_node
-/home/harindu/Combots/devel/.private/slave/share/slave/cmake/slaveConfig-version.cmake /home/harindu/Combots/devel/share/slave/cmake/slaveConfig-version.cmake
-/home/harindu/Combots/devel/.private/slave/share/slave/cmake/slaveConfig.cmake /home/harindu/Combots/devel/share/slave/cmake/slaveConfig.cmake
+/home/harindu/Projects/combots/devel/.private/slave/cmake.lock /home/harindu/Projects/combots/devel/./cmake.lock
+/home/harindu/Projects/combots/devel/.private/slave/lib/pkgconfig/slave.pc /home/harindu/Projects/combots/devel/lib/pkgconfig/slave.pc
+/home/harindu/Projects/combots/devel/.private/slave/lib/slave/slave_node /home/harindu/Projects/combots/devel/lib/slave/slave_node
+/home/harindu/Projects/combots/devel/.private/slave/share/slave/cmake/slaveConfig.cmake /home/harindu/Projects/combots/devel/share/slave/cmake/slaveConfig.cmake
+/home/harindu/Projects/combots/devel/.private/slave/share/slave/cmake/slaveConfig-version.cmake /home/harindu/Projects/combots/devel/share/slave/cmake/slaveConfig-version.cmake

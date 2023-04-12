@@ -1,12 +1,46 @@
-Symlinking /home/harindu/Combots/devel/./cmake.lock
-Symlinking /home/harindu/Combots/devel/./_setup_util.py
-Symlinking /home/harindu/Combots/devel/./env.sh
-Symlinking /home/harindu/Combots/devel/./setup.bash
-Symlinking /home/harindu/Combots/devel/./local_setup.bash
-Symlinking /home/harindu/Combots/devel/./setup.sh
-Symlinking /home/harindu/Combots/devel/./local_setup.sh
-Symlinking /home/harindu/Combots/devel/./setup.zsh
-Symlinking /home/harindu/Combots/devel/./local_setup.zsh
-Symlinking /home/harindu/Combots/devel/lib/pkgconfig/catkin_tools_prebuild.pc
-Symlinking /home/harindu/Combots/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
-Symlinking /home/harindu/Combots/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/harindu/Projects/combots/devel/./cmake.lock
+Symlinking /home/harindu/Projects/combots/devel/./_setup_util.py
+Symlinking /home/harindu/Projects/combots/devel/./env.sh
+Symlinking /home/harindu/Projects/combots/devel/./setup.bash
+Symlinking /home/harindu/Projects/combots/devel/./local_setup.bash
+Symlinking /home/harindu/Projects/combots/devel/./setup.sh
+Symlinking /home/harindu/Projects/combots/devel/./local_setup.sh
+Symlinking /home/harindu/Projects/combots/devel/./setup.zsh
+Symlinking /home/harindu/Projects/combots/devel/./local_setup.zsh
+Symlinking /home/harindu/Projects/combots/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/harindu/Projects/combots/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/harindu/Projects/combots/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Cleaning: (/home/harindu/Combots/devel/.private/catkin_tools_prebuild/cmake.lock, /home/harindu/Combots/devel/./cmake.lock)
+Cleaning: (/home/harindu/Combots/devel/.private/catkin_tools_prebuild/_setup_util.py, /home/harindu/Combots/devel/./_setup_util.py)
+Cleaning: (/home/harindu/Combots/devel/.private/catkin_tools_prebuild/env.sh, /home/harindu/Combots/devel/./env.sh)
+Cleaning: (/home/harindu/Combots/devel/.private/catkin_tools_prebuild/setup.bash, /home/harindu/Combots/devel/./setup.bash)
+Cleaning: (/home/harindu/Combots/devel/.private/catkin_tools_prebuild/local_setup.bash, /home/harindu/Combots/devel/./local_setup.bash)
+Cleaning: (/home/harindu/Combots/devel/.private/catkin_tools_prebuild/setup.sh, /home/harindu/Combots/devel/./setup.sh)
+Cleaning: (/home/harindu/Combots/devel/.private/catkin_tools_prebuild/local_setup.sh, /home/harindu/Combots/devel/./local_setup.sh)
+Cleaning: (/home/harindu/Combots/devel/.private/catkin_tools_prebuild/setup.zsh, /home/harindu/Combots/devel/./setup.zsh)
+Cleaning: (/home/harindu/Combots/devel/.private/catkin_tools_prebuild/local_setup.zsh, /home/harindu/Combots/devel/./local_setup.zsh)
+Cleaning: (/home/harindu/Combots/devel/.private/catkin_tools_prebuild/lib/pkgconfig/catkin_tools_prebuild.pc, /home/harindu/Combots/devel/lib/pkgconfig/catkin_tools_prebuild.pc)
+Cleaning: (/home/harindu/Combots/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake, /home/harindu/Combots/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake)
+Cleaning: (/home/harindu/Combots/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake, /home/harindu/Combots/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake)
+Unlinking: /home/harindu/Combots/devel/./_setup_util.py
+Already unlinked: {}
+Unlinking: /home/harindu/Combots/devel/./env.sh
+Already unlinked: {}
+Unlinking: /home/harindu/Combots/devel/./setup.bash
+Already unlinked: {}
+Unlinking: /home/harindu/Combots/devel/./local_setup.bash
+Already unlinked: {}
+Unlinking: /home/harindu/Combots/devel/./setup.sh
+Already unlinked: {}
+Unlinking: /home/harindu/Combots/devel/./local_setup.sh
+Already unlinked: {}
+Unlinking: /home/harindu/Combots/devel/./setup.zsh
+Already unlinked: {}
+Unlinking: /home/harindu/Combots/devel/./local_setup.zsh
+Already unlinked: {}
+Unlinking: /home/harindu/Combots/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Already unlinked: {}
+Unlinking: /home/harindu/Combots/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Already unlinked: {}
+Unlinking: /home/harindu/Combots/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Already unlinked: {}

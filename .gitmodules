@@ -1,0 +1,3 @@
+[submodule "easy-encryption"]
+	path = easy-encryption
+	url = https://github.com/philipperemy/easy-encryption
