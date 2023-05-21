@@ -10,14 +10,23 @@ class Slave:
         rospy.init_node('slave', anonymous=True)
         self.pub = rospy.Publisher('master', ByteMultiArray, queue_size=10)
         self.sub = rospy.Subscriber("slave", ByteMultiArray, self.callback)
-        self.fernet = Fernet(self.readkeyfile())
+        
+        
+        self.message = rospy.Subscriber("message", String, self.messageCB)
+        #self.fernet = Fernet(self.readkeyfile())
 
-        self.rate = rospy.Rate(1) # 10hz
-        #rospy.spin()
-        while not rospy.is_shutdown():
-            hello_str = "hello master %s" % rospy.get_time()
-            rospy.loginfo(hello_str)
-            self.rate.sleep()
+        #self.rate = rospy.Rate(1) # 10hz
+        #while not rospy.is_shutdown():
+        #    hello_str = "hello master %s" % rospy.get_time()
+        #    rospy.loginfo(hello_str)
+        #    self.rate.sleep()
+        
+        rospy.loginfo("Node started")
+        rospy.spin()
+
+    def messageCB(self,msg):
+        rospy.loginfo(msg)
+
     
     def callback(self,data):
         strdata = self.fernet.decrypt(bytes(bytearray(data.data))).decode()
